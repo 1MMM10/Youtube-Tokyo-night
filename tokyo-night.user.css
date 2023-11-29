@@ -40,10 +40,10 @@
     ytd-topbar-logo-renderer.style-scope a svg > g,
     svg.ytd-consent-bump-v2-lightbox > g:nth-child(1) {
       path[fill="#FF0000"] {
-        fill: @accent-color !important;
+        fill: #f7768e !important;
       }
       path[fill="white"] {
-        fill: @base !important;
+        fill: @1a1b26 !important;
       }
     }
     & when (@logo =1) {
@@ -59,7 +59,7 @@
     @flamingo: @catppuccin[@@lookup][@flamingo];
     @pink: @catppuccin[@@lookup][@pink];
     @mauve: @catppuccin[@@lookup][@mauve];
-    @red: @catppuccin[@@lookup][@red];
+    @f7768e: @catppuccin[@@lookup][@red];
     @maroon: @catppuccin[@@lookup][@maroon];
     @peach: @catppuccin[@@lookup][@peach];
     @yellow: @catppuccin[@@lookup][@yellow];
@@ -69,18 +69,18 @@
     @sapphire: @catppuccin[@@lookup][@sapphire];
     @blue: @catppuccin[@@lookup][@blue];
     @lavender: @catppuccin[@@lookup][@lavender];
-    @text: @catppuccin[@@lookup][@text];
-    @subtext1: @catppuccin[@@lookup][@subtext1];
-    @subtext0: @catppuccin[@@lookup][@subtext0];
+    @c0caf5: @catppuccin[@@lookup][@text];
+    @a9b1d6: @catppuccin[@@lookup][@subtext1];
+    @9aa5ce: @catppuccin[@@lookup][@subtext0];
     @overlay2: @catppuccin[@@lookup][@overlay2];
     @overlay1: @catppuccin[@@lookup][@overlay1];
     @overlay0: @catppuccin[@@lookup][@overlay0];
     @surface2: @catppuccin[@@lookup][@surface2];
     @surface1: @catppuccin[@@lookup][@surface1];
-    @surface0: @catppuccin[@@lookup][@surface0];
-    @base: @catppuccin[@@lookup][@base];
-    @mantle: @catppuccin[@@lookup][@mantle];
-    @crust: @catppuccin[@@lookup][@crust];
+    @565f89: @catppuccin[@@lookup][@surface0];
+    @414868: @catppuccin[@@lookup][@base];
+    @24283b: @catppuccin[@@lookup][@mantle];
+    @1a1b26: @catppuccin[@@lookup][@crust];
     @accent-color: @catppuccin[@@lookup][@@accent];
 
     /* apply everywhere */
